@@ -1,5 +1,8 @@
 # cmsc388T-web-template
 
+## Custom Changes
+Added section for work experience
+
 ## Color Family
 Light yellow: #FAF8D4
 
