@@ -15,4 +15,4 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           unalias rm
-          rm -rf ~/personal-website
+          rm -rf ~/affan/personal-website
