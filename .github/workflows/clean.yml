@@ -1,0 +1,18 @@
+name: Clean Workflow
+on:
+  workflow_dispatch:
+jobs:
+  job_one:
+    name: Clean
+    runs-on: ubuntu-latest
+    steps:
+    - name: testing
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: |
+          unalias rm
+          rm -rf personal-website

@@ -1,0 +1,17 @@
+name: Clone Workflow
+on:
+  workflow_dispatch:
+jobs:
+  job_one:
+    name: Clone
+    runs-on: ubuntu-latest
+    steps:
+    - name: testing
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: |
+           git clone git@github.com:affanmalik02/cmsc389T-project3.git ~affan/personal-website
