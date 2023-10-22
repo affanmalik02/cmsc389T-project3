@@ -3,6 +3,9 @@ version: '3'
 services:
   nodejs:
     #fill out the configuration here
+    image: node:10-alpine
+    container_name: personal-website 
+    command: node app.js
     networks:
       - app-network
   
@@ -28,7 +31,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: /home/affanmalik/Year3/CMSC389T/p3
       o: bind
 
 networks:
