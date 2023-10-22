@@ -14,4 +14,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-           git clone git@github.com:affanmalik02/cmsc389T-project3.git ~/personal-website
+           git clone 
