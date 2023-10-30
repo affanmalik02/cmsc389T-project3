@@ -18,4 +18,4 @@ Rose quartz: #B2A3B5
 .img -> where you can adjust image size
 
 https://affanmalik02.github.io/cmsc389T-project3/
-https://terpconnect.umd.edu/~affan/
+https://terpconnect.umd.edu/~affan/personal-website

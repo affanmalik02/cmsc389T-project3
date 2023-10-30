@@ -5,8 +5,8 @@
 #the docker lecture will help you complete this file 
 #there should be a total of 9 lines
 FROM node:10-alpine
-RUN mkdir /app && chown node:node /app
-WORKDIR /app
+RUN mkdir /home/node/app && chown node:node /home/node/app
+WORKDIR /home/node/app
 COPY package*.json ./
 USER node
 RUN npm install
