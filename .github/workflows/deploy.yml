@@ -15,5 +15,5 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd ~/affan/personal-website
+          cd ../pub
           git pull 

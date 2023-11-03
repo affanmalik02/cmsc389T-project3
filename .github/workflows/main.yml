@@ -1,0 +1,12 @@
+name: CI
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+   runs-on: ubunti-latest
+   container: node:14.17.0
+   steps: 
+     - user: actions/checkout@v2
+     - name: Build Project
+       run: |
+        npm install && npm run build
