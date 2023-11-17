@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 body {
   margin: 0;
-  font-family: Optima;
+  font-family: 'Lato', sans-serif;
   background-color: #FCF7FF;
 }
 
@@ -15,8 +17,6 @@ body {
   padding-right: 20px;
 }
 
-
-
 header {
   position: fixed;
   top: 0;
@@ -26,21 +26,18 @@ header {
   background: #655560;
   padding: 2%;
   text-align: center;
-
 }
 
 .panel {
   background-color: #655560;
   color: #FCF7FF;
 
-  width: 100%;
-  height: 30vh;
+  width: 40%;
 
-  margin-left: 2%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 .flex-container {
@@ -59,8 +56,6 @@ footer {
   width: 100%;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .leftFooter {
@@ -76,7 +71,6 @@ footer {
   color: #655560;
   font-size: 120%;
   color: white;
-
 }
 
 a:link {
@@ -96,14 +90,12 @@ a:active {
   background-color: transparent;
 }
 
-.rightFooterr {
+.rightFooter {
   color: #655560;
   font-size: 120%;
   padding-right: 10%;
   color: white;
 }
-
-
 
 html {
   scroll-behavior: smooth;
@@ -128,7 +120,6 @@ h1 {
 
   margin-left: 10%;
   margin-right: 2%;
-
 }
 
 section {
@@ -139,18 +130,13 @@ section {
 section:nth-child(1) {
   color: #e0ffff;
   background-color: #e0ffff;
-
 }
 
 section:nth-child(2) {
-
   background-color: #FCF7FF;
-
-
 }
 
 section:nth-child(3) {
-
   background: #C4CAD0
 }
 
@@ -213,7 +199,6 @@ h3 {
   display: flex;
   justify-content: space-between;
   background-color: #655560;
-
 }
 
 .container {
@@ -229,9 +214,7 @@ h3 {
   display: flex;
   margin: auto;
   width: 100%;
-
   margin-top: 10vh;
-
 }
 
 .reveal {
