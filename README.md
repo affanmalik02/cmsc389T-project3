@@ -1,4 +1,4 @@
-# cmsc388T-web-template
+# Affan's Personal Website/Portfolio
 
 ## Custom Changes
 Added section for work experience
